@@ -13,6 +13,6 @@ describe Ball do
   end
 
   it "can't create ball without a color" do
-    expect { ball = Ball.new }.to raise_error
+    expect { ball = Ball.new }.to raise_error ArgumentError
   end
 end
