@@ -25,4 +25,14 @@ describe Rectangle do
     expect { rec.height = 0 }.to raise_error InvalidValue
     expect { rec.width = 0 }.to raise_error InvalidValue
   end
+
+  it "returns rectangle's perimeter" do
+    rec = Rectangle.new height=10, width=20
+    rec.perimeter.should == 60
+  end
+
+  it "returns rectangle's area" do
+    rec = Rectangle.new height=10, width=20
+    rec.area.should == 200
+  end
 end

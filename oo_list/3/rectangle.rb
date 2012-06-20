@@ -17,6 +17,14 @@ class Rectangle
   def validate_size(size)
     size > 0 ? size : (raise InvalidValue)
   end
+
+  def perimeter
+    (@height + @width) * 2
+  end
+
+  def area
+    @height * @width
+  end
 end
 
 class InvalidValue < Exception
