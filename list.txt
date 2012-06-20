@@ -1,0 +1,100 @@
+Lista 1 de orientação a objetos
+-------------------------------
+
+Utilizando TDD, elabore, em Java e em Ruby, os programas a seguir, utilizando
+orientação a objetos:
+
+
+1) Crie uma classe que modele uma bola e permita trocar e consultar a cor da bola. A
+cor da bola é obrigatória.
+
+
+2) Crie uma classe que modele um quadrado e permita alterar e consultar o tamanho dos
+lados e obter a área. O tamanho dos lados é obrigatório. O quadrado não deve aceitar
+lado zero nem negativo.
+
+
+3) Crie uma classe que modele um retângulo e permita alterar e consultar os valores
+dos lados, obter a área e obter o perímetro. Os valores dos lados são obrigatórios. O
+retângulo não deve aceitar lados zero nem negativos.
+
+
+4) Crie uma classe que modele uma pessoa e permita obter a idade, peso e altura da
+pessoa e que permita fazer a pessoa envelhecer, engordar e emagrecer. A cada ano que a
+pessoa envelhece, sendo a idade dela menor que 21 anos, ela deve crescer 1,5 cm. A
+idade, o peso e a altura da pessoa são obrigatórios.
+
+
+5) Crie uma classe que modele uma conta corrente e que permita consultar o numero da
+conta e o nome correntista, consultar o saldo e fazer depósitos e saques. O nome do
+correntista e o número da conta são obrigatórios. Toda conta tem o saldo inicial de
+zero.
+
+
+6) Crie uma classe que modele uma televisão e que permita ligar e desligar a TV, e
+alterar e consultar o número do canal e o volume. O número do canal e o volume somente
+podem ser alterados dentro das faixas de 1 a 60 e de 0 a 30, respectivamente.
+
+
+7) Crie uma classe que modele uma bomba de combustível e permita definir a capacidade
+da bomba, o preço do combustível por litro e permita encher a bomba (sempre encher
+completamente) e consultar sua quantidade de combustível. É necessário também que seja
+permitido abastecer por valor (retornando a quantidade de combustível abastecida),
+abastecer por quantidade de litros (retornando o valor a ser pago). Deve ser permitido
+também alterar o valor do preço por litro. Deve ser tratada a situação de não haver
+combustível suficiente na bomba para um determinado abastecimento. A capacidade da
+bomba e o preco por litro são obrigatórios. A bomba não deve aceitar capacidade zero
+ou negativa e nem preço zero ou negativo.
+
+
+8) Crie uma classe que modele um retângulo e permita definir a altura e a largura
+(obrigatórias). A classe tambem deve permitir definir e alterar o ponto que representa
+o centro do retângulo e permitir que sejam consultados os pontos dos quatro vértices.
+Um ponto deve ser modelado por outra classe, e deve permitir definir e consultar
+valores x e y do ponto. Os valores x e y do ponto são obrigatórios.
+
+
+9) Crie uma classe que modele um número complexo. Os números complexos têm a forma:
+
+parteReal + parteImaginaria * i, onde i é a raiz quadrada de -1.
+
+As partes real e imaginária do número são obrigatórias. Um número complexo deve ser
+capaz de realizar:
+
+a) adição de dois números complexos: as partes reais são somadas de um lado e as
+partes imaginárias são somadas de outro;
+
+b) subtração de dois números complexos: a parte real do operando direito é subtraída
+da parte real do operando esquerdo e a parte imaginária do operando direito é
+subtraída da parte imaginária do operando esquerdo;
+
+c) produto de dois números complexos, de acordo com a fórmula:
+(a + bi)(c + di) = (ac - bd) + (bc + ad)i
+
+d) fornecer uma representação em String do número na forma (a + bi), onde a é a parte
+real e b é a parte imaginária.
+
+Informações sobre números complexos:
+http://pt.wikipedia.org/wiki/N%C3%BAmero_complexo
+
+
+10) Crie uma classe que modele um número racional. Um número racional é aquele que pode
+ser escrito na forma x/y. O numerador e o denominador são obrigatórios. O numerador e
+o denominador devem sempre ser representados na forma reduzida (por exemplo: 2/4 deve
+ser convertido para 1/2). Um número racional deve ser capaz de fornecer:
+
+a) Adição de dois números racionais.
+b) Subtração de dois números racionais.
+c) Multiplicação de dois números racionais.
+d) Divisão de dois números racionais.
+e) O resultado de todas as operações deve estar na forma reduzida.
+e) Fornecimento de uma representação em String do número, na forma a/b, onde a é o
+numerador e b é o denominador.
+f) Fornecimento de uma representação em String do número em forma de ponto flutuante.
+Forneça também opção de formatação com o número de casas decimais.
+
+
+11) Crie uma classe que modele um numero e responda se o número em questão é um:
+a) Número primo (divisível apenas por 1 e por ele mesmo)
+b) Número perfeito (igual à soma de seus divisores inteiros exceto ele mesmo)
+c) Número feliz (http://es.wikipedia.org/wiki/N%C3%BAmero_feliz)
